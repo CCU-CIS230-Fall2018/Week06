@@ -1,0 +1,17 @@
+﻿-Create a Class Library that validates US phone numbers with and without area codes. 
+-Create a Test project that ensures the Class Library works as expected.
+Match only validly formatted US phone numbers. Return true if a phone number is valid. Return false if a phone number is provided,
+but is invalid.
+Throw an exception if a null or empty phone number is supplied. Ensure the exception provides a good error message. 
+Write at least one test in your Test project to ensure the expected exception is thrown 
+(DO NOT throw System.Exception – pick a correct subtype). 
+
+Hint: Use the ExpectedException attribute to detect that an exception occurs when expected.
+
+Ensure that your tests actually confirm that the implementation works as expected. Test with as many different phone number formats 
+as you think are necessary.
+Additional Notes:
+Follow all coding standards
+Publish your changes to the the week06 repository in a branch named /dev/<initials>
+Create a Pull Request so I know when your work is ready for review
+Submit your branch name in Blackboard!
